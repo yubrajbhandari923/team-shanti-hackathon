@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userCards.css">
-    <script src="js/jquery.js"></script>
+    <script src="refrences/js/jquery.js"></script>
+    <script src="refrences/js/sendCards.js"></script>
     <title>My Cards</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
                     <div><label for="Photo">Add a Photo</label><input type="file"></div>
                     <div><label for="head">Add Heading</label><input type="text" name='headText'></div>
                     <div><label for="subhead">Add a subhead</label><input type="text" name='subText'></div>
-                    <div><label for="Tags">Add Tags</label><input type="text"> <button class="cards__button" type="button"> Add </button></div>
+                    <div><label for="Tags">Add Tags</label><input type="text" name='tags'> <button class="cards__button" type="button" id='submitCard' onclick='sendPic()'> Add </button></div>
                 </form>
                 <div class="cards__cont">
                     <div class="a__card">
@@ -66,10 +67,10 @@
         $(".cards__button--add").click(()=>{
             $(".cardAdd").slideDown(1000);
         });
-        $("input[type=tags]").change(()=>{
-            let a = $(this).val()
-            console.log(a.split(","));
-        })
+        // $("input[name=tags]").change(()=>{
+        //     let a = $(this).val()
+        //     console.log(a.split(","));
+        // })
     })
     
     </script>

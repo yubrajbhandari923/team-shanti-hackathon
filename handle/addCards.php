@@ -1,15 +1,16 @@
 <?php
     define('session-cookie_check',TRUE);
-    include 'handle/session-cookie_check.php';
-    define('session-cookie_check',TRUE);
-    define('sql-connection_check',TRUE);
+    include 'session-cookie_check.php';
     if(!isset($_SERVER['HTTP_REFERER'])){
         include 'error.php';
         exit;
     }
+        define('sql-connection_check',TRUE);
+        define('check',TRUE);
         include 'session-cookie_check.php';
         include 'sql-connection.php';
-        if(!isset($_POST['headText'])||!isset($_POST['headText'])){
+        include '../crypt.php';
+        if(!isset($_POST['headText'])||!isset($_POST['subText'])){
             echo 'Please Fill up all Data';
             exit();
         }else{
