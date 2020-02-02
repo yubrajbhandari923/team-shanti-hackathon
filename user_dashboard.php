@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
     <link rel="stylesheet" href="refrences/css/header.css">
+    <script src='refrences/js/jquery.js'></script>
+    <script src='refrences/js/fetchUser.js'></script>
     <title>Login</title>
 </head>
 <body>
@@ -44,34 +46,34 @@
                     <ul>
                         <h2> Personal Information</h2>
                         <li class="userData__a">
-                            <p> UserName :</p><p> Value</p>
+                            <p> Fullname :</p><p></p>
                         </li>
                         <li class="userData__a">
-                            <p> Fullname :</p><p> Value</p>
+                            <p> UserName :</p><p> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Email :</p><p> Value</p>
+                            <p> Email :</p><p> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Contact Number :</p><p> Value</p><button class="edit__userData"> edit</button>
+                            <p> Contact Number :</p><p> </p><button class="edit__userData"> edit</button>
                         </li>
                         <li class="userData__a">
-                            <p> Address :</p><p> Value</p><button class="edit__userData"> edit</button>
+                            <p> Address :</p><p> </p><button class="edit__userData"> edit</button>
                         </li>
                     </ul>
                     <ul>
                         <h2> Professional Information</h2>
                         <li class="userData__a">
-                            <p> Profession :</p><p> Value</p><button class="edit__userData"> edit</button>
+                            <p> Profession :</p><p> </p><button class="edit__userData"> edit</button>
                         </li>
                         <li class="userData__a">
-                            <p> Workplace :</p><p> Value</p><button class="edit__userData"> edit</button>
+                            <p> Workplace :</p><p> </p><button class="edit__userData"> edit</button>
                         </li>
                         <li class="userData__a">
-                            <p> Speciality :</p><p> Value</p><button class="edit__userData"> edit</button>
+                            <p> Speciality :</p><p> </p><button class="edit__userData"> edit</button>
                         </li>
                         <li class="userData__a">
-                            <p> Detail Information :</p><p> Value</p><button class="edit__userData"> edit</button>
+                            <p> Detail Information :</p><p> </p><button class="edit__userData"> edit</button>
                         </li>
                     </ul>
 
