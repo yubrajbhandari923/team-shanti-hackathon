@@ -24,6 +24,3 @@
     unset($sqlDataStore['id']);
     unset($sqlDataStore['password']);
     echo json_encode($sqlDataStore);
-
-
-

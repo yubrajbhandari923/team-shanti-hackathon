@@ -17,7 +17,6 @@ function addquizquestion(){
             if(html=='1'){ //1 means error
                 window.location.href='login';
             }else{
-                console.log(html);
                 userInfo=JSON.parse(html);
                 printUserInfo(userInfo);
             }
