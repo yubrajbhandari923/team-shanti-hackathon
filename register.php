@@ -1,0 +1,1 @@
+<!-- Made empty for htaccess  -->

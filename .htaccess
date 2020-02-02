@@ -4,3 +4,11 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^index index.php [NC,L]
+
+RewriteRule ^register login.php?page=reg [NC,L]
+
+RewriteRule ^login login.php [NC,L]
+
+RewriteRule ^handle/register handle/register.php [NC,L]
+
+RewriteRule ^handle/logincheck handle/logincheck.php [NC,L]

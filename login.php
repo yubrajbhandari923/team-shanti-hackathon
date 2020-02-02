@@ -49,7 +49,7 @@ if(isset($_SESSION['error_direct'])){
                             <button id="goto-log"> Already registered? Log in </button>
                             
                         </form>
-                        <form class="login-form" method="POST" action="logincheck">
+                        <form class="login-form" method="POST" action="handle/logincheck">
                             <h1>Log In</h1>
                             <input type=text name='username1' Placeholder="Username || E-mail">
                             <input type=password name='password1' Placeholder="Password">
@@ -62,8 +62,7 @@ if(isset($_SESSION['error_direct'])){
                             </div>
                             <button type=submit> Login </button>
                             <button id="goto-reg">New ? Register</button>
-                            <a href='forgotpassword'><button type='button'>Forgot Password</button></a>
-                            <button type='submit' name='guest-reg'>Login as Guest</button>
+                            <a href='#'><button type='button'>Forgot Password</button></a>
                         </form>
             </section>
         </section>
