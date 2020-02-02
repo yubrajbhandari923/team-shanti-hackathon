@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    overflow-x: hidden;
+}
+.bodyContainer{
+    width:100vw;
+    min-height: 100vh;
+    background: #F5F1ED;
+    display: grid;
+    grid-template-columns: 80px auto;
+}
