@@ -13,6 +13,7 @@
     border-radius:2px;
     background: #5DA9E9;
     cursor: pointer;
+    width: max-content;
 }
 
 .cards__button--remove{
@@ -65,4 +66,26 @@
     color: black;
     font: 14px quicksand;
     display: inline-block;
+}
+form.cardAdd{
+    width: 100%;
+    font:16px quicksand;
+}
+.cardAdd > div{
+    margin: 5px 0;
+    display: flex;
+    flex-flow: column;
+}
+.cardAdd > div > *{
+    margin: 3px 20px;
+}
+input{
+    padding: 5px 10px;
+    font:20px quicksand;
+    width: 400px;
+    /* border: 1px solid rgb(44, 96, 139); */
+    background: white;
+}
+input[type=file]{
+    background: transparent;
 }
