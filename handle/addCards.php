@@ -10,14 +10,6 @@
         include 'session-cookie_check.php';
         include 'sql-connection.php';
         include '../crypt.php';
-        // if(!isset($_POST['headText'])||!isset($_POST['subText'])){
-        //     echo 'Please Fill up all Data';
-        //     exit();
-        // }else{
-        //     $headText=mysqli_real_escape_string($sql_connect,$_POST['headText']);
-        //     $subText=mysqli_real_escape_string($sql_connect,$_POST['subText']);
-        //     $tags=mysqli_real_escape_string($sql_connect,$_POST['tags']);
-        // }
         $currentid_encrypt=$_COOKIE['hafhk43'];
         $c = new McryptCipher('passKey');
         $currentid= $c->decrypt($currentid_encrypt);
