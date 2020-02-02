@@ -68,6 +68,7 @@
     display: inline-block;
 }
 form.cardAdd{
+    display: none;
     width: 100%;
     font:16px quicksand;
 }
