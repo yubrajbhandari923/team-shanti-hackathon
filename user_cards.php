@@ -72,6 +72,5 @@
             console.log(a.split(","));
         })
     })
-    
     </script>
 </html>
