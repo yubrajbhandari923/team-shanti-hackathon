@@ -18,3 +18,5 @@ RewriteRule ^user_dashboard user_dashboard.php [NC,L]
 RewriteRule ^handle/logout handle/logout.php [NC,L]
 
 RewriteRule ^handle/fetchUserInfo handle/fetchUserInfo.php [NC,L]
+
+RewriteRule ^handle/addCards handle/addCards.php [NC,L]

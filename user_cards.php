@@ -24,11 +24,11 @@
                     <button class="cards__button cards__button--add"> + Add Cards </button>
                     <button class="cards__button cards__button--remove"> Remove Cards </button>
                 </div>
-                <form class="cardAdd" ction="#">
+                <form class="cardAdd" id="cardForm">
                     <div><label for="Photo">Add a Photo</label><input type="file"></div>
-                    <div><label for="head">Add Heading</label><input type="text"></div>
-                    <div><label for="subhead">Add a subhead</label><input type="text"></div>
-                    <div><label for="Tags">Add Tags</label><input type="text" name="tags"> <button class="cards__button" type="submit"> Add </button></div>
+                    <div><label for="head">Add Heading</label><input type="text" name='headText'></div>
+                    <div><label for="subhead">Add a subhead</label><input type="text" name='subText'></div>
+                    <div><label for="Tags">Add Tags</label><input type="text"> <button class="cards__button" type="button"> Add </button></div>
                 </form>
                 <div class="cards__cont">
                     <div class="a__card">
