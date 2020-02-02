@@ -115,18 +115,27 @@ body,html{
     object-fit: cover;
 }
 .main{
+    padding: 50px 0;
     background: #ee1c24;
     width:100vw;
-    height: 300px;
     display: grid;
     justify-content: center;
     align-items:center; 
 }
+.main__searchContainer{
+    display: grid;
+    justify-content: center;
+    align-items:center; 
+    
+}
 .main input{
     width: 600px;
+    justify-self: center;
     padding: 10px 30px;
     font:25px quicksand;
     text-align: center;
+    border: none;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05); 
 }
 .main label{
     display: block;
@@ -135,4 +144,22 @@ body,html{
     font:22px quicksand;
     font-weight: bolder;
     color: white;
+}
+.cards__cont{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-auto-flow: row;
+    padding: 50px 0;
+    grid-gap:50px;
+}
+.card__textBox{
+    background: #fff !important;
+}
+.a__tag{
+    background: #5DA9E9 !important;
+    color: #000 !important;
+
+}
+.a__card{
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2) !important; 
 }

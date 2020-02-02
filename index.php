@@ -9,6 +9,7 @@ define('check-user_cookie_check',TRUE);
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title> TS </title>
         <link rel=stylesheet href='refrences/css/index-style.css'>
+        <link rel=stylesheet href='refrences/css/userCards.css'>
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">    
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -84,6 +85,149 @@ define('check-user_cookie_check',TRUE);
                 <label> Search for places you like</label>
                 <input type="text">
             </div>
+            <div class="main__resultContainer">
+            <div class="cards__cont">
+                    <div class="a__card">
+                        <div class="card__photo"> 
+                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        </div>
+                        <div class="card__textBox">
+                        <div class="card__head">
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                        <div class="card__subHead">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__tags">
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="a__card">
+                        <div class="card__photo"> 
+                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        </div>
+                        <div class="card__textBox">
+                        <div class="card__head">
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                        <div class="card__subHead">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__tags">
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="a__card">
+                        <div class="card__photo"> 
+                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        </div>
+                        <div class="card__textBox">
+                        <div class="card__head">
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                        <div class="card__subHead">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__tags">
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="a__card">
+                        <div class="card__photo"> 
+                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        </div>
+                        <div class="card__textBox">
+                        <div class="card__head">
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                        <div class="card__subHead">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__tags">
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="a__card">
+                        <div class="card__photo"> 
+                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        </div>
+                        <div class="card__textBox">
+                        <div class="card__head">
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                        <div class="card__subHead">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__tags">
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="a__card">
+                        <div class="card__photo"> 
+                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        </div>
+                        <div class="card__textBox">
+                        <div class="card__head">
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                        <div class="card__subHead">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__tags">
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"> Tag here</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
 
