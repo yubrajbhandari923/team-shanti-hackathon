@@ -12,3 +12,7 @@ RewriteRule ^login login.php [NC,L]
 RewriteRule ^handle/register handle/register.php [NC,L]
 
 RewriteRule ^handle/logincheck handle/logincheck.php [NC,L]
+
+RewriteRule ^user_dashboard user_dashboard.php [NC,L]
+
+RewriteRule ^handle/logout handle/logout.php [NC,L]

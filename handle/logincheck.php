@@ -54,11 +54,11 @@ if($rows1==1||$rows2==1){/*if both password and username is correct*/
             $encrypted_user_pic= $c->encrypt($location);
             setcookie('nbie09',$encrypted_user_pic,$cookie_time,'/');
         }
-        header('location:../home');
+        header('location:../user_dashboard');//Procced Everytng is right
         exit();
 }else{
         $_SESSION['error1']='Incorrect username or Password';
-        header('location:../login');
+        header('location:../login');//Send Back for Incorrect
         exit();
 }
 ?>
