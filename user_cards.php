@@ -67,10 +67,10 @@
         $(".cards__button--add").click(()=>{
             $(".cardAdd").slideDown(1000);
         });
-        // $("input[name=tags]").change(()=>{
-        //     let a = $(this).val()
-        //     console.log(a.split(","));
-        // })
+        $("#tags__input").change(()=>{
+            let a = $("#tags__input").val()
+            console.log(a.split(","));
+        })
     })
     
     </script>
