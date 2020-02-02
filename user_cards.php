@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userCards.css">
-    <script src="js/jquery.js"></script>
+    <script src="refrences/js/jquery.js"></script>
     <title>My Cards</title>
 </head>
 <body>
