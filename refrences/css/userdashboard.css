@@ -32,6 +32,10 @@ body{
     line-height: 200px;
     font: 25px montserrat,sans-serif;
 }
+.userPPcontainer > h1{
+    line-height: 200px;
+    
+}
 .userData__a{
     display: flex;
     align-items: center;

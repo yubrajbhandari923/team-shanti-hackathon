@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
-    <link rel="stylesheet" href="refrences/css/header.css">
     <script src='refrences/js/jquery.js'></script>
     <script src='refrences/js/fetchUser.js'></script>
     <title>Login</title>
@@ -29,7 +28,7 @@
             <div class="userInfo">
                 <div class="userInfo__userPP">
                     <div class="userPPcontainer">
-                      <p> P </p>
+                       <h1>P</h1> 
                     </div>
                 </div>
                 <div class="userInfo__userData">
