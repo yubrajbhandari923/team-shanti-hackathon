@@ -30,6 +30,7 @@ header{
     margin-left: 0 ;
     list-style: none;
     width:100%;
+    font-size: 20px;
     height: 50px;
     text-align: center;
     line-height: 50px;
@@ -53,4 +54,8 @@ header{
 }
 .bodyContent{
     margin: 20px;
+}
+header a{
+    text-decoration: none;
+
 }
