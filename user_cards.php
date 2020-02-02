@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userCards.css">
     <script src="refrences/js/jquery.js"></script>
+    <script src="refrences/js/autoDisplayCards.js"></script>
     <script src="refrences/js/sendCards.js"></script>
     <title>My Cards</title>
 </head>
@@ -20,7 +21,7 @@
             <div class="contentHead">
                 <h1>Manage Cards</h1>
             </div>
-            <section class="cards">
+            <section class="cards" id='cardCon'>
                 <div class="cards__nav">
                     <button class="cards__button cards__button--add"> + Add Cards </button>
                     <button class="cards__button cards__button--remove"> Remove Cards </button>
@@ -31,27 +32,20 @@
                     <div><label for="subhead">Add a subhead</label><input type="text" name='subText'></div>
                     <div><label for="Tags">Add Tags</label><input type="text" name='tags'> <button class="cards__button" type="button" id='submitCard' onclick='sendPic()'> Add </button></div>
                 </form>
-                <div class="cards__cont">
+                <div class="cards__cont" id='cardsCont'>
                     <div class="a__card">
                         <div class="card__photo"> 
-                            <img src="refrences/imgs/Poonhill.jpg" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="card__textBox">
                         <div class="card__head">
-                            <h3>Lorem, ipsum dolor.</h3>
+                            <h3></h3>
                         </div>
                         <div class="card__subHead">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p></p>
                         </div>
                         <div class="card__tags">
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
-                            <div class="a__tag"> Tag here</div>
+                            <div class="a__tag"></div>
                         </div>
                         </div>
                     </div>

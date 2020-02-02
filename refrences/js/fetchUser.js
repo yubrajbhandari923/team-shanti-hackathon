@@ -1,11 +1,11 @@
 // To recieve and send Cookie to fetch data
-addquizquestion();
+fetchUserInfoFromDB();
 function getCookie(name) {
     function escape(s) { return s.replace(/([.*+?\^${}()|\[\]\/\\])/g, '\\$1'); };
     var match = document.cookie.match(RegExp('(?:^|;\\s*)' + escape(name) + '=([^;]*)'));
     return match ? match[1] : null;
 }
-function addquizquestion(){
+function fetchUserInfoFromDB(){
     var uId=getCookie('hafhk43');
     var datahold='uid='+uId;
     $.ajax({
