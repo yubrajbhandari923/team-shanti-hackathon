@@ -1,22 +1,15 @@
 <?php
     define('session-cookie_check',TRUE);
-    include 'handle/session-cookie_check.php';
-    define('session-cookie_check',TRUE);
-    define('sql-connection_check',TRUE);
+    include 'session-cookie_check.php';
     if(!isset($_SERVER['HTTP_REFERER'])){
         include 'error.php';
         exit;
     }
+        define('sql-connection_check',TRUE);
+        define('check',TRUE);
         include 'session-cookie_check.php';
         include 'sql-connection.php';
-        if(!isset($_POST['headText'])||!isset($_POST['headText'])){
-            echo 'Please Fill up all Data';
-            exit();
-        }else{
-            $headText=mysqli_real_escape_string($sql_connect,$_POST['headText']);
-            $subText=mysqli_real_escape_string($sql_connect,$_POST['subText']);
-            $tags=mysqli_real_escape_string($sql_connect,$_POST['tags']);
-        }
+        include '../crypt.php';
         $currentid_encrypt=$_COOKIE['hafhk43'];
         $c = new McryptCipher('passKey');
         $currentid= $c->decrypt($currentid_encrypt);
@@ -43,7 +36,7 @@
                                     $file_destination_db="uploads/pics/".$newfilename;
                                     move_uploaded_file($temp_dir,$file_destination);
                                     // **************************
-                                    $insert_data="INSERT INTO cards(id,img_dir,headText,subText,tags)VALUES('$currentid','$file_destination_db','$headText','$subText','$tags')";
+                                    $insert_data="INSERT INTO cards(id,img_dir)VALUES('$currentid','$file_destination_db')";
                                     mysqli_query($sql_connect,$insert_data);                                    
                                     echo 1;
                                     exit();
