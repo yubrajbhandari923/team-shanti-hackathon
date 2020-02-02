@@ -3,71 +3,41 @@ body,html{
     padding:0px;
     overflow-x: hidden;
 }
-.container{
-    background: #36d1dc;
-    background: linear-gradient(to right, #36d1dc, #5b86e5);  
+img{
+    float: left;
 }
-.hero{
-    width: 100vw;
-    min-height: 100vh;
+.headBar__container{
+   display: grid;
+   grid-template-columns: 50vw auto;
+}
+.headBar__photo > img{
+    width: 50vw;
+    min-width: 300px;
+    height: 100vh;
+    object-fit: cover;
+}
+.headBar__textField{
+    box-shadow: -10px 0 8px 0 rgba(0,0,0,0.1);
     display: flex;
-    justify-content:space-around;
-    align-items: center; 
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.headtext{
-    font: 50px passionone;
-    letter-spacing: 5px;
-    color: white;
+.headBar__vnylogo{
+    justify-self: flex-start;
 }
-.paratext{
-    font: 35px josefinslab;
-}
-.btn-container{
-    width: 30vw;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-.btn-container > button{
-    width: 100%;
-    padding: 25px;
-    margin-top: 20px;
-    font: 30px josefinsans;
-    border: 3px solid #ff6347;
-    border-radius: 5px;
+.headBar__vnylogo > img{
+    width: 450px;
+    height:360px;
+    object-fit: cover;
+}  
+.headBar__button{
     cursor: pointer;
-    transition: 0.5s ease-in-out;
-}
-
-@media  all and (max-width: 800px){
-    .texts{
-        margin-left: 20px;
-    }
-    .btn-container{
-        width: 80vw;
-    }
-}
-@media all and (max-width: 350px){
-    .headtext{
-        font-size: 40px;
-    }
-}
-
-button.reg-btn{
-    background: #ff6347;
+    padding: 20px 40px;
+    margin: 10px 0 ;
+    font: 22px montserrat;
+    font-weight: bolder;
+    border-radius: 5px;
+    background: #034ea2;
     color: white;
-}
-button.log-btn{
-    background: none;
-    color: white;
-}
-.reg-btn:hover{
-    background: none;
-    /* color: #ff6347; */
-}
-.log-btn:hover{
-    background: #ff6347;
-    color: white;
-    
 }

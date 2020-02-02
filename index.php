@@ -7,9 +7,10 @@ define('check-user_cookie_check',TRUE);
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <title> Guffadi </title>
-        <link rel=stylesheet href="refrences/fonts/fonts.css ">
+        <title> TS </title>
         <link rel=stylesheet href='refrences/css/index-style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">    
         <script>
             window.onload = function() {
                 document.querySelector(".reg-btn").onclick = function(){
@@ -23,7 +24,25 @@ define('check-user_cookie_check',TRUE);
          </script>
     </head>
     <body>
-            <section class="container">
+        <section class="headBar">
+            <div class="headBar__container">
+                <div class="headBar__photo">
+                    <img src="refrences/imgs/kumari.jpg" >
+                </div>
+                <div class="headBar__textField">
+                    <div class="headBar__vnylogo"><img src="refrences/imgs/vnylogo.png" ></div>
+                    <div class="headBar__buttons">
+                        <div class="headBar__button">Explore about Nepal</div>
+                        <div class="headBar__button">Include my business</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+            <!-- <section class="container">
                     <section class=hero> 
                         <div class="texts">
                             <h1 class="headtext">Insiders Page
@@ -34,7 +53,7 @@ define('check-user_cookie_check',TRUE);
                             <button class="log-btn">Log In</button>
                         </div>
                     </section>
-                </section>
+            </section> -->
     </body>
     <script src="refrences/js/if_dataDel.js"></script>
 </html>
