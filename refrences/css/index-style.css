@@ -69,6 +69,7 @@ body,html{
     background: #000;
     border-radius: 100%;
     cursor: pointer;
+    transition: 0.4s;
 }
 .sliderBar__navButton--active{
     width: 20px;

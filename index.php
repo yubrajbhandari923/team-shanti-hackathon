@@ -122,11 +122,12 @@ define('check-user_cookie_check',TRUE);
                 $(".sliderBar__slide").each((ind, ele) => {
                     up = ele.offsetTop + document.querySelector(".sliderBar").offsetTop
                     if(range(up, document.documentElement.scrollTop)){
+                        console.log("ok")
                         $(".sliderBar__navButton").each((i,e) =>{
                             e.classList.remove("sliderBar__navButton--active");
                         })
-                        
-                        $(".sliderBar__navButton")[ind].addClass(".sliderBar__navButton--active")
+                    
+                        document.querySelectorAll(".sliderBar__navButton")[ind].classList.add("sliderBar__navButton--active")
                     }
                 })
 
