@@ -1,0 +1,73 @@
+body,html{
+    margin: 0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+.container{
+    background: #36d1dc;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);  
+}
+.hero{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.headtext{
+    font: 50px passionone;
+    letter-spacing: 5px;
+    color: white;
+}
+.paratext{
+    font: 35px josefinslab;
+}
+.btn-container{
+    width: 30vw;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-container > button{
+    width: 100%;
+    padding: 25px;
+    margin-top: 20px;
+    font: 30px josefinsans;
+    border: 3px solid #ff6347;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+@media  all and (max-width: 800px){
+    .texts{
+        margin-left: 20px;
+    }
+    .btn-container{
+        width: 80vw;
+    }
+}
+@media all and (max-width: 350px){
+    .headtext{
+        font-size: 40px;
+    }
+}
+
+button.reg-btn{
+    background: #ff6347;
+    color: white;
+}
+button.log-btn{
+    background: none;
+    color: white;
+}
+.reg-btn:hover{
+    background: none;
+    /* color: #ff6347; */
+}
+.log-btn:hover{
+    background: #ff6347;
+    color: white;
+    
+}

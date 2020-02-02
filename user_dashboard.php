@@ -1,3 +1,8 @@
+<?php
+    // To direct users off the page when they are logged off
+    define('session-cookie_check',TRUE);
+    include 'handle/session-cookie_check.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +25,7 @@
                         <i class="fas fa-user"></i>
                     </li>
                     <li class="headerItem"><i class="fas fa-bell"></i></li>
-                    <li class="headerItem">C</li>
+                    <a id='logout'><li class="headerItem">C</li></a>
                     <li class="headerItem headerItem--logOut"><i class="fas fa-sign-out-alt"></i></li>      
                 </ul>
             </nav>
@@ -75,4 +80,5 @@
         </section>
     </section>
 </body>
+<script src='refrences/js/userdashboard.js'></script>
 </html>
