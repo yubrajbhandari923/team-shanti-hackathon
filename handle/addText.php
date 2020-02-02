@@ -10,13 +10,26 @@ define('session-cookie_check',TRUE);
         include 'session-cookie_check.php';
         include 'sql-connection.php';
         include '../crypt.php';
+        if(!isset($_POST['fileDir'])){
+            echo 'Error';
+            exit();
+        }
         if(!isset($_POST['headText'])|| !isset($_POST['subText'])){
             echo 'Error';
             exit();
         }else{
             $headText=mysqli_real_escape_string($sql_connect,$_POST['headText']);
             $subText=mysqli_real_escape_string($sql_connect,$_POST['subText']);
+            $tags=mysqli_real_escape_string($sql_connect,$_POST['tags']);
+            $actDir=mysqli_real_escape_string($sql_connect,$_POST['fileDir']);
+
         }
-        $insert_data="INSERT INTO cards(id,img_dir)VALUES('$currentid','$file_destination_db')";
-        mysqli_query($sql_connect,$insert_data);                                    
+        $currentid_encrypt=$_COOKIE['hafhk43'];
+        $c = new McryptCipher('passKey');
+        $decrypted_id=$c->decrypt($currentid_encrypt);
+        // $sqlQuery="UPDATE cards SET headText=$headText , subText=$subText WHERE id=$currentid_encrypt";
+        $sqlQuery="UPDATE cards SET headText='$headText',subText='$subText',tags='$tags' WHERE act_dir='$actDir' AND id=$decrypted_id";
+        if(!mysqli_query($sql_connect,$sqlQuery)){
+            mysqli_query($sql_connect,$sqlQuery);
+        };
         echo 1;

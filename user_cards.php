@@ -66,11 +66,7 @@
     $().ready(()=>{
         $(".cards__button--add").click(()=>{
             $(".cardAdd").slideDown(1000);
-        });
-        $("#tags__input").change(()=>{
-            let a = $("#tags__input").val()
-            console.log(a.split(","));
-        })
+        });        
     })
     </script>
 </html>

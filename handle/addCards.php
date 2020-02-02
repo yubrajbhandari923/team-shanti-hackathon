@@ -36,7 +36,7 @@
                                     $file_destination_db="uploads/pics/".$newfilename;
                                     move_uploaded_file($temp_dir,$file_destination);
                                     // **************************
-                                    $insert_data="INSERT INTO cards(id,img_dir)VALUES('$currentid','$file_destination_db')";
+                                    $insert_data="INSERT INTO cards(id,img_dir,act_dir)VALUES('$currentid','$file_destination_db','$filename')";
                                     mysqli_query($sql_connect,$insert_data);                                    
                                     echo 1;
                                     exit();

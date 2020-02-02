@@ -4,7 +4,6 @@ function sendPic(){
     var form_data = new FormData();
     form_data.append('file', file_data);
     fake_path=document.querySelector('#cardForm input[type=file]').value
-    sendtext(fake_path.split("\\").pop());
     $.ajax({
         url: 'handle/addCards',
         dataType: 'text',
@@ -14,8 +13,10 @@ function sendPic(){
         data: form_data,
         type: 'post',
         success: function(html){
-            if(html){
-                console.log(html);
+            if(html==1){//IF success
+                sendtext(fake_path.split("\\").pop());
+            }else{
+                console.log('There is an error'+html);
             }
         }
     })
@@ -25,16 +26,20 @@ function sendPic(){
 function sendtext(fileName){
     var textHead=document.querySelector('#cardForm input[name=headText').value;
     var subText=document.querySelector('#cardForm input[name=subText').value;
-    var datahold='subText='+subText+'&headText='+textHead;
+        var a = $("#cardForm input[name=tags").val()
+        var tags=(a.split(","));
+    var datahold='subText='+subText+'&headText='+textHead+'&tags='+tags+'&fileDir='+fileName;
+    console.log(datahold);
     $.ajax({
         url: 'handle/addText',
-        dataType: 'text',
         cache: false,
         data: datahold,
         type: 'post',
         success: function(html){
-            if(html){
-                console.log(html);
+            if(html==1){
+                window.location.reload();
+            }else{
+                console.log('error'+html);
             }
         }
     })
