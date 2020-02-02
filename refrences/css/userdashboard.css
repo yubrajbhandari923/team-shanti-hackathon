@@ -18,14 +18,7 @@ body{
     margin:10px;
     height:max-content;
 }
-.contentHead{
-    display: inline;
-    font: 40px quicksand, sans-serif;
 
-}
-.bodyContent{
-    margin: 20px;
-}
 .userInfo__userData{
     margin: 20px 0;
 }
@@ -41,6 +34,7 @@ body{
 }
 .userData__a{
     display: flex;
+    align-items: center;
     margin:20px 0;
     font: 22px quicksand,sans-serif;
 }
@@ -50,10 +44,10 @@ body{
 .userData__a button{
     padding: 5px 10px;
     border: none;
-    background:#5DA9E9;
+    background:#444141;
     border-radius:5px;
     font: 18px quicksand;
-    color: black;
+    color: white;
 }
 h2{
     font: 25px montserrat;
