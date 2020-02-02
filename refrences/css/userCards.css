@@ -1,0 +1,21 @@
+.cards{
+    margin:10px 0 ;
+}
+.cards__button{
+    font-weight: bolder;
+    margin-right:  10px; 
+    font: 17px quicksand;
+    padding: 10px 20px;
+    border: none;
+    border-radius:2px;
+    background: #5DA9E9;
+    cursor: pointer;
+}
+.cards__button--add{
+    
+}
+.cards__button--remove{
+    border: 1px solid rgb(44, 96, 139);
+    background: rgba(93, 170, 233, 0.1);
+
+}
