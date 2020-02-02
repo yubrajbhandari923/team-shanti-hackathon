@@ -28,7 +28,7 @@
                     <div><label for="Photo">Add a Photo</label><input type="file"></div>
                     <div><label for="head">Add Heading</label><input type="text" name='headText'></div>
                     <div><label for="subhead">Add a subhead</label><input type="text" name='subText'></div>
-                    <div><label for="Tags">Add Tags</label><input type="text"> <button class="cards__button" type="button"> Add </button></div>
+                    <div><label for="Tags">Add Tags</label><input id="tags_input" type="text"> <button class="cards__button" type="button"> Add </button></div>
                 </form>
                 <div class="cards__cont">
                     <div class="a__card">
@@ -66,8 +66,8 @@
         $(".cards__button--add").click(()=>{
             $(".cardAdd").slideDown(1000);
         });
-        $("input[type=tags]").change(()=>{
-            let a = $(this).val()
+        $("#tags__input").change(()=>{
+            let a = $("#tags__input").val()
             console.log(a.split(","));
         })
     })
