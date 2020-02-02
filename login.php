@@ -37,15 +37,21 @@ if(isset($_SESSION['error_direct'])){
     <section class="container">
         <section class="hero">
             <section class="forms forms-<?php echo $data; ?>">
-                    <form class="register-form" method="POST" action="handle/register" autocomplete=on>
+                    <form class="register-form" autocomplete=on id='register'>
                             <h1>Register</h1>
                             <input type=text name='fullname' placeholder="Enter Your Full Name">
                             <input type=email name='emailid' placeholder="Enter Your Email Address">
                             <input type=text name='username' placeholder="Enter Username">
                             <input type=password name='password' placeholder="Enter Password">
-                            <div class="error"><?php if(isset($_SESSION['error'])){echo $_SESSION['error'];}?></div>
+                            <input type=tel name='phone' placeholder="Enter Phone Number">
+                            <input type=text name='address' placeholder="Enter Address">
+                            <input type=text name='profession' placeholder="Enter your Profession">
+                            <input type=text name='workplace' placeholder="Enter your workplace">
+                            <input type=text name='speciality' placeholder="Enter your speciality at profession">
+                            <textarea name='detail' placeholder="Enter your detailed information"></textarea>
+                            <div id="error" class='error'></div>
                             
-                            <button type=submit> Register </button>
+                            <button type=button id='submit'> Register </button>
                             <button id="goto-log"> Already registered? Log in </button>
                             
                         </form>
@@ -68,6 +74,7 @@ if(isset($_SESSION['error_direct'])){
         </section>
     </section>
 </body>
-<script src="refrences/js/if_dataDel.js"></script>
+<script src='refrences/js/jquery.js'></script>
+<script src='refrences/js/log.js'></script>
 </html>
 <?php session_destroy();?>
