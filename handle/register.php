@@ -1,8 +1,5 @@
 <?php
 define('sql-connection_check',TRUE);
-define('verifyemail_check',TRUE);
-define('credential_check',TRUE);
-define('mail_check',TRUE);
 if(!isset($_SERVER['HTTP_REFERER'])){
     include 'error.php';
     exit;
