@@ -1,0 +1,16 @@
+.notificationContainer{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    max-width: 90vw;
+    align-content: stretch;
+}
+.a-notification{
+    border: 1px solid rgb(44, 96, 139);
+    color: rgb(44, 96, 139) ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font: 22px quicksand,sans-serif;
+    background: rgba(93, 170, 233, 0.2);
+}
