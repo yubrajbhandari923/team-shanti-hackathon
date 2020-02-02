@@ -9,23 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userCards.css">
-    <link rel="stylesheet" href="refrences/css/header.css">
     <title>My Cards</title>
 </head>
 <body>
     <section class="bodyContainer">
-        <header class="sideBar">
-            <nav>
-                <ul>
-                    <li class="headerItem headerItem--active">
-                        <i class="flaticon-user"></i>
-                    </li>
-                    <li class="headerItem"><i class="flaticon-notification"></i></li>
-                    <li class="headerItem"><i class="flaticon-note"></i></li>
-                    <li class="headerItem headerItem--logOut"><i class="flaticon-logout"></i></li>      
-                </ul>
-            </nav>
-        </header>
+       <?php include "header.php" ?>
         <section class="bodyContent">
             <div class="contentHead">
                 <h1>Manage Cards</h1>
