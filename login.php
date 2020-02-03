@@ -39,26 +39,26 @@ if(isset($_SESSION['error_direct'])){
     <section class="container">
         <section class="hero">
             <section class="forms forms-<?php echo $data; ?>">
-                    <form class="register-form" autocomplete=on id='register'>
-                            <h1>Register</h1>
-                            <div>
-                                <label> FullName</label>
+                <h1>Please Register to continue? or <a href="#login-form"> Log in</a></h1>
+                <form class="register-form" autocomplete=on id='register'>
+                    <div>
+                        <label> FullName</label>
                             <input type=text name='fullname' placeholder="Enter Your Full Name"></div>
                             <div>
                                 <label> Email Address</label>
                             <input type=email name='emailid' placeholder="Enter Your Email Address"></div>
                             <div>
                                 <label> Username</label>
-                            <input type=text name='username' placeholder="Enter Username"></div>
+                                <input type=text name='username' placeholder="Enter Username"></div>
                             <div>
                                 <label> Password</label>
-                            <input type=password name='password' placeholder="Enter Password"></div>
-                            <div>
+                                <input type=password name='password' placeholder="Enter Password"></div>
+                                <div>
                                 <label> Phone Number</label>
-                            <input type=tel name='phone' placeholder="Enter Phone Number"></div>
+                                <input type=tel name='phone' placeholder="Enter Phone Number"></div>
                             <div>
                                 <label> Address</label>
-                            <input type=text name='address' placeholder="Enter Address"></div>
+                                <input type=text name='address' placeholder="Enter Address"></div>
                             <div>
                                 <label> Profession</label>
                             <input type=text name='profession' placeholder="Enter your Profession"></div>
@@ -67,17 +67,18 @@ if(isset($_SESSION['error_direct'])){
                             <input type=text name='workplace' placeholder="Enter your workplace"></div>
                             <div>
                                 <label> Speciality</label>
-                            <input type=text name='speciality' placeholder="Enter your speciality at profession"></div>
-                            <div>
-                                <label> Any additional Detail?</label>
-                            <textarea name='detail' placeholder="Enter your detailed information"></textarea></div>
-                            <div id="error" class='error'></div>
-                            
-                            <button type=button id='submit'> Register </button>
-                            <button id="goto-log"> Already registered? Log in </button>
-                            
-                        </form>
-                        <form class="login-form" method="POST" action="handle/logincheck">
+                                <input type=text name='speciality' placeholder="Enter your speciality at profession"></div>
+                                <div>
+                                    <label> Any additional Detail?</label>
+                                    <textarea name='detail' placeholder="Enter your detailed information"></textarea></div>
+                                    <div id="error" class='error'></div>
+                                    
+                                    <button type=button id='submit'> Register </button>
+                                    <button id="goto-log"> Already registered? Log in </button>
+                                    
+                                </form>
+                                <h1>Already registered? Please Log in.</h1>
+                                <form id="login-form" class="login-form" method="POST" action="handle/logincheck">
                             <h1>Log In</h1>
                             <input type=text name='username1' Placeholder="Username || E-mail">
                             <input type=password name='password1' Placeholder="Password">

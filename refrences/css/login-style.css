@@ -21,7 +21,7 @@ form{
     padding: 30px;
     font:20px quicksand;
     font-weight: bolder;
-    background: #feb913;
+    background: #dedede;
     margin: 10px 0;
     box-shadow: 10px 5px 5px 0 rgba(0,0,0,0.2)
 }
@@ -35,9 +35,9 @@ form input, textarea{
     background: white;
     margin: 10px 0;
 }
-form h1{
-    margin: 10px;
-    font:30px montserrat;
+h1{
+    margin: 10px 0;
+    font:22px montserrat;
     font-weight: bolder;
 
 }
