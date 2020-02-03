@@ -24,3 +24,5 @@ RewriteRule ^handle/addCards handle/addCards.php [NC,L]
 RewriteRule ^handle/addText handle/addText.php [NC,L]
 
 RewriteRule ^handle/displayCards handle/displayCards.php [NC,L]
+
+RewriteRule ^handle/searchCard handle/searchCard.php [NC,L]

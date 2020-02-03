@@ -14,17 +14,7 @@ define('check-user_cookie_check',TRUE);
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">    
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <script>
-            // window.onload = function() {
-            //     document.querySelector(".reg-btn").onclick = function(){
-            //         window.location.href ="register";
-                    
-            //     }
-            //     document.querySelector(".log-btn").onclick = function(){
-            //         window.location.href ="login";
-            //     }
-            // }
-         </script>
+        <script src='refrences/js/searchCard.js'></script>
     </head>
     <body>
         <section class="headBar">
@@ -83,7 +73,7 @@ define('check-user_cookie_check',TRUE);
         <section class="main">
             <div class="main__searchContainer">
                 <label> Search for places you like</label>
-                <input type="text">
+                <input type="text" onkeyup='searchCard()' id='searchBar'>
             </div>
             <div class="main__resultContainer">
             <div class="cards__cont">

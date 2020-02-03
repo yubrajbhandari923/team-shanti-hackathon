@@ -20,14 +20,13 @@ define('session-cookie_check',TRUE);
         }else{
             $headText=mysqli_real_escape_string($sql_connect,$_POST['headText']);
             $subText=mysqli_real_escape_string($sql_connect,$_POST['subText']);
-            $tags=mysqli_real_escape_string($sql_connect,$_POST['tags']);
+            $tags=strtolower(mysqli_real_escape_string($sql_connect,$_POST['tags']));
             $actDir=mysqli_real_escape_string($sql_connect,$_POST['fileDir']);
 
         }
         $currentid_encrypt=$_COOKIE['hafhk43'];
         $c = new McryptCipher('passKey');
         $decrypted_id=$c->decrypt($currentid_encrypt);
-        // $sqlQuery="UPDATE cards SET headText=$headText , subText=$subText WHERE id=$currentid_encrypt";
         $sqlQuery="UPDATE cards SET headText='$headText',subText='$subText',tags='$tags' WHERE act_dir='$actDir' AND id=$decrypted_id";
         if(!mysqli_query($sql_connect,$sqlQuery)){
             mysqli_query($sql_connect,$sqlQuery);
