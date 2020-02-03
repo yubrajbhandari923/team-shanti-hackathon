@@ -57,3 +57,13 @@ h2{
     font: 25px montserrat;
     font-weight: bolder;
 }
+form{
+    display: flex;
+}
+input{
+    padding: 5px 10px;
+    font:20px quicksand;
+    width: 400px;
+    /* border: 1px solid rgb(44, 96, 139); */
+    background: white;
+}

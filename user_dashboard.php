@@ -9,11 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
-<<<<<<< HEAD:user_dashboard.php
-=======
-    <link rel="stylesheet" href="refrences/css/user-profile.css">
-    <link rel="stylesheet" href="refrences/css/header.css">
->>>>>>> Appointment Page second last stage:user_profile.php
     <script src='refrences/js/jquery.js'></script>
     <script src='refrences/js/userCardDashboard.js'></script>
     <title>Login</title>
@@ -68,5 +63,15 @@
         </section>
     </section>
 </body>
+<script>
+    $(document).ready(function () {
+        $(".edit__userData").click(function (e) { 
+            e.preventDefault();
+            $(this).prev().html("<form ><input type=text><button type=submit class=edit__userData> Done </button></form>")
+            $(this).hide();
+            
+        });
+    });
+</script>
 <!-- <script src='refrences/js/userdashboard.js'></script> -->
 </html>
