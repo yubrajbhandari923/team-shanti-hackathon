@@ -9,14 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="refrences/css/userCards.css">
     <link rel="stylesheet" href="refrences/css/search.css">
+    <link rel="stylesheet" href="refrences/icons/flaticon.css">
 </head>
 <body>
     
 <section class="main">
         <div class="main__searchContainer">
             <label> Search for places you like</label>
+            <div style="display: flex">
             <input type="text" id='searchBar'>
-            <button type="button" onclick="searchCard()">Submit</button>
+            <button type="button" onclick="searchCard()"><i class="flaticon-search"></i></button>
+</div>
         </div>
         <div class="main__resultContainer">
             <h2 id='err'></h2>
