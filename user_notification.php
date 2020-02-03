@@ -22,12 +22,18 @@
                 <h1>Notifications!</h1>
             </div>
             <div class="notificationContainer">
-                <div class="a-notification">
+                <!-- <div class="a-notification">
                     <p class="notiText"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nam?</p>
-                </div>
+                </div> -->
             </div>
         </section>
         </section>
 </body>
 <script src='refrences/js/notification.js'></script>
+<script>
+$(document).ready(function () {
+    $("#more-noti").click(()=>{
+        $(".more-notice").slideToggle();
+    })
+});</script>
 </html>

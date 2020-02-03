@@ -11,6 +11,15 @@
     color: rgb(44, 96, 139) ;
     border-radius: 10px;
     padding: 10px 20px;
+    margin: 10px 0;
     font: 22px quicksand,sans-serif;
     background: rgba(93, 170, 233, 0.2);
+}
+#more-noti{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+.more-notice{
+    display: none;
 }
