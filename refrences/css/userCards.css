@@ -3,6 +3,7 @@
 }
 .cards__cont{
     display: flex;
+    flex-wrap: wrap;
     margin:10px 0 ;
 }
 .cards__button{
@@ -71,7 +72,7 @@
     display: inline-block;
 }
 form.cardAdd{
-    /* display: none; */
+    display: none;
     width: 100%;
     font:16px quicksand;
 }
@@ -94,6 +95,9 @@ input[type=file]{
     background: transparent;
 }
 .remove__icon{
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     position: absolute;
     top: 5px;
@@ -101,4 +105,7 @@ input[type=file]{
     background: #fff;
     color: #000;
     cursor: pointer;
+}
+.flaticon-cancel{
+    font-size: 16px;
 }

@@ -68,4 +68,15 @@
     </section>
 </body>
 <script src='refrences/js/fetchUser.js'></script>
+<script>
+    $(document).ready(function () {
+        $(".edit__userData").click(function (e) { 
+            e.preventDefault();
+            $(this).prev().html("<form ><input type=text><button type=submit class=edit__userData> Done </button></form>")
+            $(this).hide();
+            
+        });
+    });
+</script>
+<script src='refrences/js/userdashboard.js'></script>
 </html>

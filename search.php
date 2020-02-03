@@ -13,9 +13,10 @@
 </head>
 <body>
     
+    <div class="wayToHome" style="position: absolute; top: 30px; right: 50px; cursor:pointer;" ><a href="index" style="font:22px quicksand; color: white;"> Home</a></div>
 <section class="main">
         <div class="main__searchContainer">
-            <label> Search for places you like</label>
+            <label> Search for places, Business or local products you like <br><p style="font-size: 22px;font-weight:200">Eg. Lumbini, Homestay, Thanka </p></label>
             <div style="display: flex">
             <input type="text" id='searchBar'>
             <button type="button" onclick="searchCard()"><i class="flaticon-search"></i></button>
