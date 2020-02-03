@@ -31,37 +31,40 @@
                     </div>
                 </div>
                 <div class="userInfo__userData">
+                    <form action="">
                     <ul>
                         <h2> Personal Information</h2>
+                        <button class="edit__userData cards__button">Edit</button>
                         <li class="userData__a">
-                            <p> Fullname :</p><p></p>
+                            <p> Fullname :</p><p class="userValue"></p>
                         </li>                        
                         <li class="userData__a">
-                            <p> Email :</p><p> </p>
+                            <p> Email :</p><p class="userValue"> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Contact Number :</p><p> </p><button class="edit__userData"> edit</button>
+                            <p> Contact Number :</p><p class="userValue--editable"> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Address :</p><p> </p><button class="edit__userData"> edit</button>
+                            <p> Address :</p><p class="userValue--editable"> </p>
                         </li>
                     </ul>
                     <ul>
                         <h2> Professional Information</h2>
                         <li class="userData__a">
-                            <p> Profession :</p><p> </p><button class="edit__userData"> edit</button>
+                            <p> Profession :</p><p class="userValue--editable"> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Workplace :</p><p> </p><button class="edit__userData"> edit</button>
+                            <p> Workplace :</p><p class="userValue--editable"> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Speciality :</p><p> </p><button class="edit__userData"> edit</button>
+                            <p> Speciality :</p><p class="userValue--editable"> </p>
                         </li>
                         <li class="userData__a">
-                            <p> Detail Information :</p><p> </p><button class="edit__userData"> edit</button>
+                            <p> Detail Information :</p><p class="userValue--editable"> </p>
                         </li>
                     </ul>
-
+                    <button class="cards__button submit--button" type=submit> Done</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -73,9 +76,12 @@
     $(document).ready(function () {
         $(".edit__userData").click(function (e) { 
             e.preventDefault();
-            name = $(this).prev().prev().text().slice(0,-1);
-            $(this).prev().html("<form ><input name="+ name +" type=text><button type=submit class=edit__userData> Done </button></form>")
-            $(this).hide();
+
+            $(".userValue--editable").each(function (index, ele) {
+                name = $(ele).prev().text().slice(0,-1);
+                $(ele).prev().html("<input name="+ name +" type=text>")
+                $(ele).hide();
+            });
             
         });
     });
