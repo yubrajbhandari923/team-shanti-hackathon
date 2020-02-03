@@ -12,18 +12,18 @@ body, html, *{
     align-items: center;
 }
 .forms{
-    width: 90vw;
-    max-width:500px;
-
+    width: max-content;
+    display: flex;
 }
 form{
+    width: min-content;
     display: flex;
     flex-direction: column;
     padding: 30px;
     font:20px quicksand;
     font-weight: bolder;
     background: #dedede;
-    margin: 10px 0;
+    margin: 20px;
     box-shadow: 10px 5px 5px 0 rgba(0,0,0,0.2)
 }
 form input, textarea{
@@ -52,4 +52,7 @@ button{
     border-radius: 5px;
     background: #034ea2;
     color: white;
+}
+.login-form{
+    display: none;
 }

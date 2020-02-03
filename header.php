@@ -2,11 +2,11 @@
 <header class="sideBar">
     <nav>
         <ul>
-            <a href="user_dashboard.php"><li class="headerItem headerItem--active">
+            <a href="user_dashboard"><li class="headerItem headerItem--active">
                 <i class="flaticon-user"></i>
             </li> </a>
-            <a href="user_notification.php"><li class="headerItem"><i class="flaticon-notification"></i></li></a>
-            <a href="user_cards.php"><li class="headerItem"><i class="flaticon-note"></i></li></a>
+            <a href="user_notification"><li class="headerItem"><i class="flaticon-notification"></i></li></a>
+            <a href="user_cards"><li class="headerItem"><i class="flaticon-note"></i></li></a>
             <a id='logout'><li class="headerItem headerItem--logOut"><i class="flaticon-logout"></i></li>      </a>
         </ul>
     </nav>

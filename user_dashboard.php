@@ -72,7 +72,8 @@
     $(document).ready(function () {
         $(".edit__userData").click(function (e) { 
             e.preventDefault();
-            $(this).prev().html("<form ><input type=text><button type=submit class=edit__userData> Done </button></form>")
+            name = $(this).prev().prev().text().slice(0,-1);
+            $(this).prev().html("<form ><input name="+ name +" type=text><button type=submit class=edit__userData> Done </button></form>")
             $(this).hide();
             
         });
