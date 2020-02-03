@@ -77,7 +77,6 @@ if(isset($_SESSION['error_direct'])){
                                     <div id="error" class='error'></div>
                                     
                                     <button type=button id='submit'> Register </button>
-                                    <button id="goto-log"> Already registered? Log in </button>
                                     
                                 </form>
 </div>      <div class="form2 login-form">
@@ -94,7 +93,6 @@ if(isset($_SESSION['error_direct'])){
                             ?>
                             </div>
                             <button type=submit> Login </button>
-                            <button id="goto-reg">New ? Register</button>
                             <a href='#'><button type='button'>Forgot Password</button></a>
                         </form>
                         </div>

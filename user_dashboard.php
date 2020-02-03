@@ -1,3 +1,4 @@
+
 <?php
  define('session-cookie_check',TRUE);
  include 'handle/session-cookie_check.php';//To deny access to the files directly By URL
@@ -78,8 +79,7 @@
 
             $(".userValue--editable").each(function (index, ele) {
                 name = $(ele).prev().text().slice(0,-1);
-                $(ele).prev().html("<input name="+ name +" type=text>")
-                $(ele).hide();
+                $(ele).("<input default="+ $(ele).text() +" name="+ name +" type=text>")
             });
             
         });
