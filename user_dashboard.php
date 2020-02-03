@@ -15,6 +15,7 @@
 </head>
 <body>
     <section class="bodyContainer">
+    <?php include "header.php" ?>
 
         <section class="bodyContent">
             <div class="contentHead">
