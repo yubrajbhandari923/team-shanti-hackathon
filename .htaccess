@@ -42,3 +42,5 @@ RewriteRule ^handle/takeAppointment handle/takeAppointment.php [NC,L]
 RewriteRule ^handle/notification handle/notification.php [NC,L]
 
 RewriteRule ^handle/removeCards handle/removeCards.php [NC,L]
+
+RewriteRule ^handle/changeDetail handle/changeDetail.php [NC,L]

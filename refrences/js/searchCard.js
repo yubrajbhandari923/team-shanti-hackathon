@@ -38,8 +38,7 @@ function displaYCard(dataOfCard){
 }
 
 function afterExecute(){
-    document.querySelector('#err').innerHTML='';
-    console.log('deleted');
+    document.querySelector('#err').innerHTML='';    
     var contain=document.getElementsByClassName('a__card');
     for(i=0;i<contain.length-1;i++){
         $(contain)[i].remove();

@@ -1,9 +1,10 @@
 <?php
     define('session-cookie_check',TRUE);
     if(!isset($_SERVER['HTTP_REFERER'])){
-        include '../error.php';
+        echo 1;
         exit;
     }
+    error_reporting(0);
         define('sql-connection_check',TRUE);
         define('check',TRUE);
         include 'sql-connection.php';

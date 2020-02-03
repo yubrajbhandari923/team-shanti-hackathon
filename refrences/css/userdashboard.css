@@ -76,3 +76,6 @@ input{
     cursor: pointer;
     width: max-content;
 }
+.submit--button{
+    display: none;
+}

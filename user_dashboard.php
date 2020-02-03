@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="userInfo__userData">
-                    <form action="">
+                    <form>
                     <ul>
                         <h2> Personal Information</h2>
                         <button class="edit__userData cards__button">Edit</button>
@@ -64,7 +64,7 @@
                             <p> Detail Information :</p><p class="userValue--editable"> </p>
                         </li>
                     </ul>
-                    <button class="cards__button submit--button" type=submit> Done</button>
+                    <button class="cards__button submit--button" type=button onclick='changeDetail()'> Done</button>
                     </form>
                 </div>
             </div>
@@ -80,9 +80,11 @@
 
             $(".userValue--editable").each(function (index, ele) {
                 name = $(ele).prev().text().slice(0,-1);
-                $(ele).("<input default="+ $(ele).text() +" name="+ name +" type=text>")
+                text = $(ele).text();
+                $(ele).html("<input value='"+text +"' name="+ name +" type=text>")
             });
             
+            $(".submit--button").show();
         });
     });
 </script>

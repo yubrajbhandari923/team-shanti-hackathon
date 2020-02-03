@@ -1,6 +1,6 @@
 <?php
  define('session-cookie_check',TRUE);
- include 'handle/session-cookie_check.php';//To deny access to the files directly By URL
+ include 'session-cookie_check.php';//To deny access to the files directly By URL
  if(!isset($_SERVER['HTTP_REFERER'])){
     include 'error.php';
     exit;
@@ -48,6 +48,9 @@ if(!isset($_POST['detail'])||empty($_POST['detail'])){
 $user_enc_key=$_COOKIE['hafhk43'];
 $c=new McryptCipher('passKey');
 $userID=$c->decrypt($user_enc_key);
-$sqlQuery="UPDATE account SET phone=$contact,address=$address,profession=$profession,workplace=$workplace,speciality=$speciality,detail=$detail WHERE id=$userID";
-mysqli_query($sql_connect,$sqlQuery);
+$sqlQuery="UPDATE account SET phone=$contact,address='$address',profession='$profession',workplace='$workplace',speciality='$speciality',detail='$detail' WHERE id=$userID";
+if(!mysqli_query($sql_connect,$sqlQuery)){
+    echo 'Couldnt perform request';
+    exit();
+}
 echo 1;
