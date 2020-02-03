@@ -17,7 +17,10 @@ function sendNoti(){
     return false;
 }
 function displayNotification(userNotData){
-console.log(userNotData);
+    userNotData.forEach(ele => {
+        document.querySelector(".notificationContainer").innerHTML +=" <div class=a-notification><p class=notiText>"+ ele.notify + "made an you an appointment <span id=more-noti>More</span> <span class=more-notice> <p> Email: " + ele.email+"</p> <p> "+ ele.purpose+"</p></span></p></div>";
+        
+    });
 }
 // function printUserInfo(uData){
 //     c=0;
