@@ -2,6 +2,7 @@
     margin:10px 0 ;
 }
 .cards__cont{
+    display: flex;
     margin:10px 0 ;
 }
 .cards__button{
@@ -23,6 +24,7 @@
 }
 
 .a__card{
+    margin: 10px 20px;
     cursor: pointer;
     position: relative;
     display: flex;
