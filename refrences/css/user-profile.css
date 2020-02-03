@@ -11,7 +11,7 @@
 }
 
 form.cardAdd{
-    /* display: none; */
+    display: none;
     width: 100%;
     font:16px quicksand;
 }

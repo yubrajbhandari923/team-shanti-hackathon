@@ -81,5 +81,12 @@
         </section>
     </section>
 </body>
-<!-- <script src='refrences/js/userdashboard.js'></script> -->
+<script>
+    $(document).ready(function () {
+        $(".userInfo__appointButt").click(function (e) { 
+            e.preventDefault();
+            $("form").slideToggle();
+        });
+    });
+</script>
 </html>
