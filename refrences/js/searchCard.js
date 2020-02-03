@@ -32,6 +32,8 @@ function displaYCard(dataOfCard){
         cardSelect[i].querySelector('.card__photo img').setAttribute('src',dataOfCard[i].img_dir);
         cardSelect[i].querySelector('.card__head h3').innerHTML=dataOfCard[i].headText;
         cardSelect[i].querySelector('.card__subHead p').innerHTML=dataOfCard[i].subText;
+        var uLoc='user_profile?udt='+dataOfCard[i].id;
+        cardSelect[i].querySelector('.a__card a').setAttribute('href',uLoc);
     }
 }
 

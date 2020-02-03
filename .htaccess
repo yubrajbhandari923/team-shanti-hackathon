@@ -32,3 +32,5 @@ RewriteRule ^handle/fetchAfterCardUser handle/fetchAfterCardUser.php [NC,L]
 RewriteRule ^search search.php [NC,L]
 
 RewriteRule ^user_profile user_profile.php [NC,L]
+
+RewriteRule ^handle/takeAppointment handle/takeAppointment.php [NC,L]
