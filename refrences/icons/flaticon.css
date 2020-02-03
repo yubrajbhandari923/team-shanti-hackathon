@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 03/02/2020 01:36
+  	Creation date: 03/02/2020 02:47
   	*/
 
 @font-face {
@@ -36,3 +36,4 @@ margin-left: 20px;
 .flaticon-logout:before { content: "\f103"; }
 .flaticon-search:before { content: "\f104"; }
 .flaticon-down-arrow:before { content: "\f105"; }
+.flaticon-cancel:before { content: "\f106"; }

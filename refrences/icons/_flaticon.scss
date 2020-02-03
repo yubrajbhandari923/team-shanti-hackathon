@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 03/02/2020 01:36
+    Creation date: 03/02/2020 02:47
     */
 
     @font-face {
@@ -43,6 +43,7 @@
 .flaticon-logout:before { content: "\f103"; }
 .flaticon-search:before { content: "\f104"; }
 .flaticon-down-arrow:before { content: "\f105"; }
+.flaticon-cancel:before { content: "\f106"; }
     
     $font-Flaticon-user: "\f100";
     $font-Flaticon-notification: "\f101";
@@ -50,3 +51,4 @@
     $font-Flaticon-logout: "\f103";
     $font-Flaticon-search: "\f104";
     $font-Flaticon-down-arrow: "\f105";
+    $font-Flaticon-cancel: "\f106";

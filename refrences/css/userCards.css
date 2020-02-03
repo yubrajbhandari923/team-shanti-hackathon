@@ -24,6 +24,7 @@
 
 .a__card{
     cursor: pointer;
+    position: relative;
     display: flex;
     flex-direction: column;
     /* background: rgb(29, 119, 192); */
@@ -89,4 +90,13 @@ input{
 }
 input[type=file]{
     background: transparent;
+}
+.remove__icon{
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
 }

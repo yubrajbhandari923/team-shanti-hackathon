@@ -34,9 +34,13 @@
                 </form>
                 <div class="cards__cont" id='cardsCont'>
                     <div class="a__card">
-                        <div class="card__photo"> 
+                    <div class="remove__icon">
+                    <i class="flaticon-cancel"></i>
+                    </div>    
+                    <div class="card__photo"> 
                             <img src="" alt="">
                         </div>
+
                         <div class="card__textBox">
                         <div class="card__head">
                             <h3></h3>
@@ -60,7 +64,11 @@
     $().ready(()=>{
         $(".cards__button--add").click(()=>{
             $(".cardAdd").slideDown(1000);
-        });        
+        });    
+        $(".remove__icon").click(function (e) { 
+            e.preventDefault();
+                        
+        });    
     })
     </script>
 </html>
