@@ -9,17 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
-<<<<<<< HEAD:user_dashboard.php
-=======
-    <link rel="stylesheet" href="refrences/css/user-profile.css">
-    <link rel="stylesheet" href="refrences/css/header.css">
->>>>>>> Appointment Page second last stage:user_profile.php
     <script src='refrences/js/jquery.js'></script>
     <script src='refrences/js/userCardDashboard.js'></script>
     <title>Login</title>
 </head>
 <body>
     <section class="bodyContainer">
+    <?php include "header.php" ?>
 
         <section class="bodyContent">
             <div class="contentHead">
