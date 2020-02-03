@@ -1,0 +1,11 @@
+.userInfo__appointButtContain button {
+    font-weight: bolder;
+    margin-right:  10px; 
+    font: 17px quicksand;
+    padding: 10px 20px;
+    border: none;
+    border-radius:2px;
+    background: #5DA9E9;
+    cursor: pointer;
+    width: max-content;
+}
