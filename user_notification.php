@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/usernotification.css">
+    <script src='refrences/js/jquery.js'></script>
 
     <title>Notifications</title>
 </head>
@@ -24,9 +25,9 @@
                 <div class="a-notification">
                     <p class="notiText"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nam?</p>
                 </div>
-
             </div>
         </section>
         </section>
 </body>
+<script src='refrences/js/notification.js'></script>
 </html>

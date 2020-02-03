@@ -1,3 +1,7 @@
+<?php
+ define('session-cookie_check',TRUE);
+ include 'handle/session-cookie_check.php';//To deny access to the files directly By URL
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,6 @@
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
     <script src='refrences/js/jquery.js'></script>
-    <script src='refrences/js/userCardDashboard.js'></script>
     <title>Login</title>
 </head>
 <body>
@@ -64,6 +67,7 @@
         </section>
     </section>
 </body>
+<script src='refrences/js/fetchUser.js'></script>
 <script>
     $(document).ready(function () {
         $(".edit__userData").click(function (e) { 
@@ -74,5 +78,5 @@
         });
     });
 </script>
-<!-- <script src='refrences/js/userdashboard.js'></script> -->
+<script src='refrences/js/userdashboard.js'></script>
 </html>

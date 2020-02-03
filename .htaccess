@@ -34,3 +34,5 @@ RewriteRule ^search search.php [NC,L]
 RewriteRule ^user_profile user_profile.php [NC,L]
 
 RewriteRule ^handle/takeAppointment handle/takeAppointment.php [NC,L]
+
+RewriteRule ^handle/notification handle/notification.php [NC,L]
