@@ -63,3 +63,9 @@
     background: transparent;
     cursor: pointer;
 }
+#err{
+    display: block;
+    text-align: center;
+    font: 30px montserrat;
+    color: white;
+}
