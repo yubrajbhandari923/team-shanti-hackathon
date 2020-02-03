@@ -35,11 +35,11 @@ define('check-user_cookie_check',TRUE);
         </section>
         
         <section class="sliderBar" id="sliderBar">
-                <div class="sliderBar__sideNav">
-                    <div class="sliderBar__navButton"></div>
-                    <div class="sliderBar__navButton"></div>
-                    <div class="sliderBar__navButton"></div>
-                    <div class="sliderBar__navButton"></div>
+            <div class="sliderBar__sideNav">
+                <div class="sliderBar__navButton"></div>
+                <div class="sliderBar__navButton"></div>
+                <div class="sliderBar__navButton"></div>
+                <div class="sliderBar__navButton"></div>
                     <div class="sliderBar__navButton"></div>
                 </div>
                 <div class="sliderBar__bg"></div>
@@ -74,13 +74,18 @@ define('check-user_cookie_check',TRUE);
         <section class="finalBar">
             <div class="finalBar__container">
                 <h1>Wanna Learn about local services of specific places? </h1>
+                <a href="search.php"><div class="headBar__button"> <i class="flaticon-search"></i> Find about your interest in Nepal</div></a>
+                
+                <h1>Or Want to include about your business, place or local product? </h1>
+                <a href="login.php"><div class="headBar__button">Include my business</div></a>
+                
             </div>
         </section>
         <footer>
-
-        </footer>
-        <div class="search__container">
-            <div class="search__hero">
+            
+            </footer>
+            <div class="search__container">
+                <div class="search__hero">
                 <p></p>
             </div>
         </div>

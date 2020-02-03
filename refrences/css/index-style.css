@@ -135,3 +135,16 @@ footer{
     height:200px;
     background: rgb(37, 35, 35);
 }
+.finalBar{
+    width: 100vw;
+    display: grid ;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.finalBar__container h1{
+    font: 25px montserrat;
+    font-weight: bolder;
+    margin-top:  100px;
+
+}
