@@ -45,31 +45,31 @@ if(isset($_SESSION['error_direct'])){
                                 <label> FullName</label>
                             <input type=text name='fullname' placeholder="Enter Your Full Name"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Email Address</label>
                             <input type=email name='emailid' placeholder="Enter Your Email Address"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Username</label>
                             <input type=text name='username' placeholder="Enter Username"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Password</label>
                             <input type=password name='password' placeholder="Enter Password"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Phone Number</label>
                             <input type=tel name='phone' placeholder="Enter Phone Number"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Address</label>
                             <input type=text name='address' placeholder="Enter Address"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Profession</label>
                             <input type=text name='profession' placeholder="Enter your Profession"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Workplace</label>
                             <input type=text name='workplace' placeholder="Enter your workplace"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Speciality</label>
                             <input type=text name='speciality' placeholder="Enter your speciality at profession"></div>
                             <div>
-                                <label> FullName</label>
+                                <label> Any additional Detail?</label>
                             <textarea name='detail' placeholder="Enter your detailed information"></textarea></div>
                             <div id="error" class='error'></div>
                             
