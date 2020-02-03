@@ -65,9 +65,10 @@ define('check-user_cookie_check',TRUE);
             </div>
             <div class="sliderBar__slide">
                 <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Trek over the mountains.</div>
-                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores
-                    dolore illo dolor aut.</div>
+                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Mountain is the heart of Nepal. 
+                    There are more then 400 mountains in Nepal. Among them, some are 8000+m high mountains. World's 
+                    highest peak, Mt. Everest also lies in Nepal. 8 of 10 highest peak lies in Nepal.
+                </div>
                 <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img
                         src="refrences/imgs/sheyphoksundo.jpg" alt=""></div>
             </div>
