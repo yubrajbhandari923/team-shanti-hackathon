@@ -21,7 +21,7 @@ define('check-user_cookie_check',TRUE);
         <section class="headBar">
             <div class="headBar__container">
                 <div class="headBar__photo">
-                    <img src="refrences/imgs/kumari.jpg" >
+                    <img style="object-position: top;" src="refrences/imgs/lumbini.jpg" >
                 </div>
                 <div class="headBar__textField">
                     <div class="headBar__vnylogo"><img src="refrences/imgs/vnylogo.png" ></div>
@@ -45,29 +45,29 @@ define('check-user_cookie_check',TRUE);
                 <div class="sliderBar__bg"></div>
             <div class="sliderBar__slides">
                 <div class="sliderBar__slide">
-                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Lorem, ipsum dolor.</div>
+                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Explore wide cultural diversity.</div>
                     <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores dolore illo dolor aut.</div>
                     <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/Kumari.jpg" alt=""></div>
                 </div>
                 <div class="sliderBar__slide">
-                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Lorem, ipsum dolor.</div>
+                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Trek over the mountains.</div>
                     <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores dolore illo dolor aut.</div>
-                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/Kumari.jpg" alt=""></div>
+                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/sheyphoksundo.jpg" alt=""></div>
                 </div>
                 <div class="sliderBar__slide">
-                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Lorem, ipsum dolor.</div>
+                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Visit Historical and Religious sites</div>
                     <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores dolore illo dolor aut.</div>
-                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/Kumari.jpg" alt=""></div>
+                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/janaki.jpg" alt=""></div>
                 </div>
                 <div class="sliderBar__slide">
-                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Lorem, ipsum dolor.</div>
+                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Enjoy nature's finest art</div>
                     <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores dolore illo dolor aut.</div>
-                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/Kumari.jpg" alt=""></div>
+                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/Kalinchowk.jpg" alt=""></div>
                 </div>
                 <div class="sliderBar__slide">
-                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Lorem, ipsum dolor.</div>
+                    <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Explore the crafts by best Artist</div>
                     <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores dolore illo dolor aut.</div>
-                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/Kumari.jpg" alt=""></div>
+                    <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img src="refrences/imgs/crafts.jpg" alt=""></div>
                 </div>
             </div>
         </section>
