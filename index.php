@@ -75,17 +75,17 @@ define('check-user_cookie_check',TRUE);
             <div class="sliderBar__slide">
                 <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Visit Historical and Religious
                     sites</div>
-                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores
-                    dolore illo dolor aut.</div>
+                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">From the historical tome people of 
+                    of Nepal are good in architecture, sclupture and art. Lichchhavi period was known as Golden era in the history 
+                    of Nepal. There are many religious places too in Nepal. Pashupatinath temple, known as one of the most important hindu temple 
+                    is also situated in Nepal.
+                </div>
                 <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img
                         src="refrences/imgs/janaki.jpg" alt=""></div>
             </div>
             <div class="sliderBar__slide">
                 <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Enjoy nature's finest art</div>
-                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores
-                    dolore illo dolor aut.</div>
+                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent"></div>
                 <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img
                         src="refrences/imgs/Kalinchowk.jpg" alt=""></div>
             </div>
