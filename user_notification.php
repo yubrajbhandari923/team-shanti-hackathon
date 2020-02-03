@@ -32,8 +32,6 @@
 <script src='refrences/js/notification.js'></script>
 <script>
 $(document).ready(function () {
-    $("#more-noti").click(()=>{
-        $(".more-notice").slideToggle();
-    })
+   
 });</script>
 </html>
