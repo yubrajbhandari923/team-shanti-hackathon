@@ -27,10 +27,10 @@ body{
     height: 200px;
     background: rgb(187, 186, 186);
     border-radius: 100%;
-    color: white;
+    color: #4f5ad4;
     text-align: center;
     line-height: 200px;
-    font: 25px montserrat,sans-serif;
+    font: 5em montserrat,sans-serif;
 }
 .userPPcontainer > h1{
     line-height: 200px;
@@ -57,13 +57,22 @@ h2{
     font: 25px montserrat;
     font-weight: bolder;
 }
-form{
-    display: flex;
-}
+
 input{
     padding: 5px 10px;
     font:20px quicksand;
     width: 400px;
     /* border: 1px solid rgb(44, 96, 139); */
     background: white;
+}
+.cards__button{
+    font-weight: bolder;
+    margin-right:  10px; 
+    font: 17px quicksand;
+    padding: 10px 20px;
+    border: none;
+    border-radius:2px;
+    background: #5DA9E9;
+    cursor: pointer;
+    width: max-content;
 }

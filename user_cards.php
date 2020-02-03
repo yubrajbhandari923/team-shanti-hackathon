@@ -34,7 +34,7 @@
                 <div class="cards__cont" id='cardsCont'>
                     <div class="a__card">
                     <div class="remove__icon">
-                    <a href='#'><i class="flaticon-cancel"></i></a>
+                    <a><i class="flaticon-cancel"></i></a>
                     </div>    
                     <div class="card__photo"> 
                             <img src="" alt="">

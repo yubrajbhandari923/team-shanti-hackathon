@@ -25,6 +25,11 @@ function fetchUserInfoFromDB(){
     return false;
 }
 function printUserInfo(uData){
+    console.log(uData);
+    var fName=uData.name
+    var firstName= fName.charAt(0);
+    firstLetter=firstName.toUpperCase();
+    document.querySelector('.userPPcontainer h1').innerHTML=firstLetter;
     c=0;
    var infoContainers=document.getElementsByClassName('userData__a');
    for (x in uData) {
