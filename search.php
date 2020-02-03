@@ -22,9 +22,9 @@
             <h2 id='err'></h2>
         <div class="cards__cont">
                 <div class="a__card">
-                    <div class="card__photo"> 
+                    <a href="#" > <div class="card__photo"> 
                         <img alt="">
-                    </div>
+                    </div> </a>
                     <div class="card__textBox">
                     <div class="card__head">
                         <h3></h3>
