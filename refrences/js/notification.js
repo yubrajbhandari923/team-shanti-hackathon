@@ -22,7 +22,6 @@ function displayNotification(userNotData){
         
     });
     $("#more-noti").click(()=>{
-        alert("dhjh")
         $(".more-notice").slideToggle();
     })
 }

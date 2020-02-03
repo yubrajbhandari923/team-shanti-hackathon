@@ -33,7 +33,6 @@
 <script>
 $(document).ready(function () {
     $("#more-noti").click(()=>{
-        alert("dhjh")
         $(".more-notice").slideToggle();
     })
 });</script>
