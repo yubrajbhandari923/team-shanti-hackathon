@@ -2,19 +2,11 @@
 define('check-user_cookie_check',TRUE);
 include 'handle/check-user_cookie.php';
 session_start();
-if(isset($_GET['page'])){
-    $data=$_GET['page'];
-}else{
-    $data='log';
-}
-if($data!='reg'){
-    $data='log';
-}
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Quiz Project</title>
+    <title>Visit Nepal 2020</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title> Guffadi </title>
@@ -22,7 +14,6 @@ if($data!='reg'){
     <link rel="stylesheet" href='refrences/css/login-style.css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">    
-    <script src="refrences/js/login-script.js">
      </script>
 </head>
 <body>

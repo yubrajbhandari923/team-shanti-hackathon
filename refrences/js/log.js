@@ -1,7 +1,7 @@
 document.querySelector('#submit').addEventListener('click',function(){
-    addquizquestion();
+    registerNepal();
 })
-function addquizquestion(){
+function registerNepal(){
     var name=( $("#register input[name=fullname]").val());
     var emailid=( $("#register input[name=emailid]").val());
     var username=( $("#register input[name=username]").val());
