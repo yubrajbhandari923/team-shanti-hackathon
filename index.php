@@ -85,16 +85,19 @@ define('check-user_cookie_check',TRUE);
             </div>
             <div class="sliderBar__slide">
                 <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Enjoy nature's finest art</div>
-                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent"></div>
+                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Nepal is also rich in natural diversity. 
+                    Nepal is very rich in green forests too. One horned rhinosorous, one of the rare animal is also seen in Nepal.
+                </div>
                 <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img
                         src="refrences/imgs/Kalinchowk.jpg" alt=""></div>
             </div>
             <div class="sliderBar__slide">
                 <div data-aos="fade-up" data-aos-delay=400 class="sliderBar__slideHead">Explore the crafts by best
                     Artist</div>
-                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Accusantium libero, totam magnam rem delectus praesentium. Asperiores
-                    dolore illo dolor aut.</div>
+                <div data-aos="fade-up" data-aos-delay=800 class="sliderBar__slideContent">Nepal is the place of artists from the past 
+                    history. Thanka chitra, an art of Nepal is also very popular among tourists. There other 
+                    many type of art like sclupture, pot making, pot painting etc.
+                </div>
                 <div data-aos="fade-up" data-aos-delay=600 class="sliderBar__slidePhoto"><img
                         src="refrences/imgs/crafts.jpg" alt=""></div>
             </div>
