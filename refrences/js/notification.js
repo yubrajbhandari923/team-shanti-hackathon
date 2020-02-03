@@ -18,9 +18,13 @@ function sendNoti(){
 }
 function displayNotification(userNotData){
     userNotData.forEach(ele => {
-        document.querySelector(".notificationContainer").innerHTML +=" <div class=a-notification><p class=notiText>"+ ele.notify + " made an you an appointment <span id=more-noti>More</span> <span class=more-notice> <span> Email: " + ele.email+" </span> <span> "+ ele.purpose+"</span></span></p></div>";
+        document.querySelector(".notificationContainer").innerHTML +=" <br> <div class=a-notification><p class=notiText>"+ ele.notify + " made an you an appointment <span id=more-noti>More</span> <span class=more-notice><br> <span> Email: " + ele.email+" </span> <span> <br>"+ ele.purpose+"</span></span></p></div>";
         
     });
+    $("#more-noti").click(()=>{
+        alert("dhjh")
+        $(".more-notice").slideToggle();
+    })
 }
 // function printUserInfo(uData){
 //     c=0;
