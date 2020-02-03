@@ -30,6 +30,7 @@ function manageCards(uData){
         cardContainer[j].querySelector('.card__head h3').innerHTML=uData[j].headText;
         cardContainer[j].querySelector('.card__subHead p').innerHTML=uData[j].subText;
         cardContainer[j].querySelector('.card__subHead p').innerHTML=uData[j].subText;
+        cardContainer[j].querySelector('.remove__icon a').setAttribute('href','handle/removeCards?headText='+uData[j].headText+'&img_dir='+uData[j].img_dir);
         var tagArr=uData[j].tags.split(',');
         var tagLen=tagArr.length;
         for(i=0;i<tagLen-1;i++){
