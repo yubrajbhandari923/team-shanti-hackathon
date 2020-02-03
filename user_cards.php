@@ -24,7 +24,6 @@
             <section class="cards" id='cardCon'>
                 <div class="cards__nav">
                     <button class="cards__button cards__button--add"> + Add Cards </button>
-                    <button class="cards__button cards__button--remove"> Remove Cards </button>
                 </div>
                 <form class="cardAdd" id="cardForm">
                     <div><label for="Photo">Add a Photo</label><input type="file"></div>
@@ -67,7 +66,7 @@
         });    
         $(".remove__icon").click(function (e) { 
             e.preventDefault();
-                        
+
         });    
     })
     </script>
