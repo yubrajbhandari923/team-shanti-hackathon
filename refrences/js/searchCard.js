@@ -8,7 +8,9 @@ function searchCard(){
         cache:false,
         success:function(html){
             if(html==1){
+                $('.a__card').hide();
                 document.querySelector('#err').innerHTML='Sorry!No result found';
+
             }else{
                 displaYCard(JSON.parse(html));
             }

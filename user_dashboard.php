@@ -1,8 +1,3 @@
-<?php
-    // To direct users off the page when they are logged off
-    define('session-cookie_check',TRUE);
-    include 'handle/session-cookie_check.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
+<<<<<<< HEAD:user_dashboard.php
+=======
+    <link rel="stylesheet" href="refrences/css/user-profile.css">
+    <link rel="stylesheet" href="refrences/css/header.css">
+>>>>>>> Appointment Page second last stage:user_profile.php
     <script src='refrences/js/jquery.js'></script>
-    <script src='refrences/js/fetchUser.js'></script>
+    <script src='refrences/js/userCardDashboard.js'></script>
     <title>Login</title>
 </head>
 <body>
     <section class="bodyContainer">
-    <?php include "header.php" ?>
 
         <section class="bodyContent">
             <div class="contentHead">
@@ -37,10 +36,7 @@
                         <h2> Personal Information</h2>
                         <li class="userData__a">
                             <p> Fullname :</p><p></p>
-                        </li>
-                        <li class="userData__a">
-                            <p> UserName :</p><p> </p>
-                        </li>
+                        </li>                        
                         <li class="userData__a">
                             <p> Email :</p><p> </p>
                         </li>
