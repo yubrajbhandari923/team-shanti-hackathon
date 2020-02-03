@@ -11,14 +11,14 @@ session_start();
 
 if(empty($_POST['username1'])){
     $_SESSION['error1']='Enter your email or username';
-    header('location:login');
+    header('location:../login');
     exit();
 }else{
     $user=mysqli_real_escape_string($sql_connect,$_POST['username1']);
 }
 if(empty($_POST['password1'])){
     $_SESSION['error1']='Enter your password';
-    header('location:login');
+    header('location:../login');
     exit();
 }else{
     $pass=mysqli_real_escape_string($sql_connect,$_POST['password1']);

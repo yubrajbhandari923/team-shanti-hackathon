@@ -23,4 +23,5 @@
     $sqlDataStore=mysqli_fetch_assoc($sqlQueryStore);
     unset($sqlDataStore['id']);
     unset($sqlDataStore['password']);
+    unset($sqlDataStore['username']);
     echo json_encode($sqlDataStore);

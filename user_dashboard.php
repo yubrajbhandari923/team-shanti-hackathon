@@ -28,7 +28,7 @@
             <div class="userInfo">
                 <div class="userInfo__userPP">
                     <div class="userPPcontainer">
-                       <h1>P</h1> 
+                       <h1></h1> 
                     </div>
                 </div>
                 <div class="userInfo__userData">
@@ -72,6 +72,7 @@
     </section>
 </body>
 <script src='refrences/js/fetchUser.js'></script>
+<script src='refrences/js/dataChange.js'></script>
 <script>
     $(document).ready(function () {
         $(".edit__userData").click(function (e) { 
