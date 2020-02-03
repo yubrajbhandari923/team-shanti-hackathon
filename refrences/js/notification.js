@@ -18,7 +18,7 @@ function sendNoti(){
 }
 function displayNotification(userNotData){
     userNotData.forEach(ele => {
-        document.querySelector(".notificationContainer").innerHTML +=" <div class=a-notification><p class=notiText>"+ ele.notify + "made an you an appointment <span id=more-noti>More</span> <span class=more-notice> <p> Email: " + ele.email+"</p> <p> "+ ele.purpose+"</p></span></p></div>";
+        document.querySelector(".notificationContainer").innerHTML +=" <div class=a-notification><p class=notiText>"+ ele.notify + " made an you an appointment <span id=more-noti>More</span> <span class=more-notice> <span> Email: " + ele.email+" </span> <span> "+ ele.purpose+"</span></span></p></div>";
         
     });
 }
