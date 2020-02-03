@@ -13,3 +13,6 @@
         $currUserId='2';
         $currheadText='Coer';
         $picLoc='stg';
+        $SQLquery="DELETE FROM cards WHERE id=$currUserId AND headText=$currheadText AND img_dir=$picLoc";
+        mysqli_query($sql_connect,$SQLquery);
+        echo 1;

@@ -1,8 +1,3 @@
-<?php
-    // To direct users off the page when they are logged off
-    define('session-cookie_check',TRUE);
-    include 'handle/session-cookie_check.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,13 +10,14 @@
     <link rel="stylesheet" href="refrences/icons/flaticon.css">
     <link rel="stylesheet" href="refrences/css/userdashboard.css">
     <link rel="stylesheet" href="refrences/css/user-profile.css">
+    <link rel="stylesheet" href="refrences/css/header.css">
     <script src='refrences/js/jquery.js'></script>
-    <script src='refrences/js/fetchUser.js'></script>
+    <script src='refrences/js/userCardDashboard.js'></script>
+    <script src='refrences/js/sendAppointment.js'></script>
     <title>Login</title>
 </head>
 <body>
     <section class="bodyContainer">
-    <?php include "header.php" ?>
 
         <section class="bodyContent">
             <div class="contentHead">
@@ -30,7 +26,7 @@
             <div class="userInfo">
                 <div class="userInfo__userPP">
                     <div class="userPPcontainer">
-                       <h1>P</h1> 
+                       <h1>P</h1>
                     </div>
                 </div>
                 <div class="userInfo__userData">
@@ -40,16 +36,13 @@
                     <form class="cardAdd" id="cardForm">
                             <div><label for="name">Enter Your Name</label><input type="text" name='name'></div>
                             <div><label for="email">Enter email</label><input type="text" name='email'></div>
-                            <div><label for="purpose">Purpose</label><input type="textarea" name='purpose'> <button class="cards__button" type="button" id='submitCard' onclick='sendPic()'> Send</button></div>
+                            <div><label for="purpose">Purpose</label><input type="textarea" name='purpose'> <button class="cards__button" type="button" id='submitCard' onclick='sendAppointment()'> Send</button></div>
                         </form>
                     <ul>
                         <h2> Personal Information</h2>
                         <li class="userData__a">
                             <p> Fullname :</p><p></p>
-                        </li>
-                        <li class="userData__a">
-                            <p> UserName :</p><p> </p>
-                        </li>
+                        </li>                        
                         <li class="userData__a">
                             <p> Email :</p><p> </p>
                         </li>

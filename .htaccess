@@ -26,3 +26,11 @@ RewriteRule ^handle/addText handle/addText.php [NC,L]
 RewriteRule ^handle/displayCards handle/displayCards.php [NC,L]
 
 RewriteRule ^handle/searchCard handle/searchCard.php [NC,L]
+
+RewriteRule ^handle/fetchAfterCardUser handle/fetchAfterCardUser.php [NC,L]
+
+RewriteRule ^search search.php [NC,L]
+
+RewriteRule ^user_profile user_profile.php [NC,L]
+
+RewriteRule ^handle/takeAppointment handle/takeAppointment.php [NC,L]
