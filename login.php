@@ -32,7 +32,8 @@ if(isset($_SESSION['error_direct'])){
     <section class="container">
         <section class="hero">
             <section class="forms forms-<?php echo $data; ?>">
-                <h1>Please Register to continue? or <a href="#login-form"> Log in</a></h1>
+            <div class="form1 register-form">
+                <h1>Please Register to continue? or <a id=show-log href="#"> Log in</a></h1>
                 <form class="register-form" autocomplete=on id='register'>
                     <div>
                         <label> FullName</label>
@@ -70,9 +71,10 @@ if(isset($_SESSION['error_direct'])){
                                     <button id="goto-log"> Already registered? Log in </button>
                                     
                                 </form>
-                                <h1>Already registered? Please Log in.</h1>
-                                <form id="login-form" class="login-form" method="POST" action="handle/logincheck">
-                            <h1>Log In</h1>
+</div>      <div class="form2 login-form">
+                                <h1>Please Log in or Not registered yet? <a id=show-reg href="#"> Register</a></h1>
+                                <form id="login-form" method="POST" action="handle/logincheck">
+                                <h1>Log In</h1>
                             <input type=text name='username1' Placeholder="Username || E-mail">
                             <input type=password name='password1' Placeholder="Password">
                             <div class="error">
@@ -86,11 +88,26 @@ if(isset($_SESSION['error_direct'])){
                             <button id="goto-reg">New ? Register</button>
                             <a href='#'><button type='button'>Forgot Password</button></a>
                         </form>
+                        </div>
             </section>
         </section>
     </section>
 </body>
 <script src='refrences/js/jquery.js'></script>
 <script src='refrences/js/log.js'></script>
+<script>
+ $(document).ready(function () {
+     $("#show-log").click(function (e) { 
+         e.preventDefault();
+         $(".register-form").hide();
+         $(".login-form").show();
+     });
+     $("#show-reg").click(function (e) { 
+         e.preventDefault();
+         $(".register-form").show();
+         $(".login-form").hide();
+     });
+ });
+</script>
 </html>
 <?php session_destroy();?>
