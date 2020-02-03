@@ -26,6 +26,8 @@ if($data!='reg'){
      </script>
 </head>
 <body>
+<div class="wayToHome" style="position: absolute; top: 30px; right: 50px; cursor:pointer;" ><a href="index" style="font:22px quicksand; color: black;"> Home</a></div>
+
     <span style='width:100%;margin:auto;color:white;text-align:center;position:absolute;top:0;font:20px josefinsans; background: lightskyblue; border: 1px solid skyblue;z-index:10'>
        <?php
 if(isset($_SESSION['register_success'])){
