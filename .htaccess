@@ -15,6 +15,8 @@ RewriteRule ^handle/logincheck handle/logincheck.php [NC,L]
 
 RewriteRule ^user_dashboard user_dashboard.php [NC,L]
 
+RewriteRule ^user_cards user_cards.php [NC,L]
+
 RewriteRule ^handle/logout handle/logout.php [NC,L]
 
 RewriteRule ^handle/fetchUserInfo handle/fetchUserInfo.php [NC,L]
@@ -36,3 +38,5 @@ RewriteRule ^user_profile user_profile.php [NC,L]
 RewriteRule ^handle/takeAppointment handle/takeAppointment.php [NC,L]
 
 RewriteRule ^handle/notification handle/notification.php [NC,L]
+
+RewriteRule ^handle/removeCards handle/removeCards.php [NC,L]
