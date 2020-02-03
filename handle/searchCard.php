@@ -10,7 +10,7 @@
         include '../crypt.php';
         $init_var=mysqli_real_escape_string($sql_connect,$_POST['query']);
         if(empty($init_var)){
-            echo json_encode('error');
+            echo 1;
             exit();
         }    
         $sqlQuery="SELECT * FROM cards";
@@ -26,4 +26,9 @@
                 }
             }
         }
-        echo json_encode($empArr);
+        if(count($empArr)==0){
+            echo 1;
+            exit();
+        }else{
+            echo json_encode($empArr);
+        }

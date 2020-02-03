@@ -15,145 +15,22 @@
 <section class="main">
         <div class="main__searchContainer">
             <label> Search for places you like</label>
-            <input type="text" onkeyup='searchCard()' id='searchBar'>
+            <input type="text" id='searchBar'>
+            <button type="button" onclick="searchCard()">Submit</button>
         </div>
         <div class="main__resultContainer">
+            <h2 id='err'></h2>
         <div class="cards__cont">
                 <div class="a__card">
                     <div class="card__photo"> 
-                        <img src="refrences/imgs/Poonhill.jpg" alt="">
+                        <img alt="">
                     </div>
                     <div class="card__textBox">
                     <div class="card__head">
-                        <h3>Lorem, ipsum dolor.</h3>
+                        <h3></h3>
                     </div>
                     <div class="card__subHead">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="card__tags">
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                    </div>
-                    </div>
-                </div>
-                <div class="a__card">
-                    <div class="card__photo"> 
-                        <img src="refrences/imgs/Poonhill.jpg" alt="">
-                    </div>
-                    <div class="card__textBox">
-                    <div class="card__head">
-                        <h3>Lorem, ipsum dolor.</h3>
-                    </div>
-                    <div class="card__subHead">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="card__tags">
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                    </div>
-                    </div>
-                </div>
-                <div class="a__card">
-                    <div class="card__photo"> 
-                        <img src="refrences/imgs/Poonhill.jpg" alt="">
-                    </div>
-                    <div class="card__textBox">
-                    <div class="card__head">
-                        <h3>Lorem, ipsum dolor.</h3>
-                    </div>
-                    <div class="card__subHead">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="card__tags">
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                    </div>
-                    </div>
-                </div>
-                <div class="a__card">
-                    <div class="card__photo"> 
-                        <img src="refrences/imgs/Poonhill.jpg" alt="">
-                    </div>
-                    <div class="card__textBox">
-                    <div class="card__head">
-                        <h3>Lorem, ipsum dolor.</h3>
-                    </div>
-                    <div class="card__subHead">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="card__tags">
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                    </div>
-                    </div>
-                </div>
-                <div class="a__card">
-                    <div class="card__photo"> 
-                        <img src="refrences/imgs/Poonhill.jpg" alt="">
-                    </div>
-                    <div class="card__textBox">
-                    <div class="card__head">
-                        <h3>Lorem, ipsum dolor.</h3>
-                    </div>
-                    <div class="card__subHead">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="card__tags">
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                    </div>
-                    </div>
-                </div>
-                <div class="a__card">
-                    <div class="card__photo"> 
-                        <img src="refrences/imgs/Poonhill.jpg" alt="">
-                    </div>
-                    <div class="card__textBox">
-                    <div class="card__head">
-                        <h3>Lorem, ipsum dolor.</h3>
-                    </div>
-                    <div class="card__subHead">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="card__tags">
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
-                        <div class="a__tag"> Tag here</div>
+                        <p></p>
                     </div>
                     </div>
                 </div>
